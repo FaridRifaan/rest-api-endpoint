@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
         info = @Info(title = "Countries API", version = "1.0"),
         servers = {
                 @Server(description = "dev env",
-                        url = "http://localhost:8080/api"),
+                        url = "http://localhost:8080"),
         }
 
 )
